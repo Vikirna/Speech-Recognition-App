@@ -1,0 +1,60 @@
+/* Base Style */
+body {
+    background: #181818;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #64ffda;
+    letter-spacing: 2px;
+  }
+  
+  button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    background: #64ffda;
+    border: none;
+    color: #121212;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background: #ffffff;
+    color: #64ffda;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #64ffda;
+  }
+  
+  textarea {
+    background: #121212;
+    color: #ffffff;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 80%;
+    height: 200px;
+    resize: none;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    box-shadow: 0 0 10px #64ffda;
+  }
+  
+  textarea:focus {
+    outline: none;
+    box-shadow: 0 0 15px #64ffda;
+  }
+  
